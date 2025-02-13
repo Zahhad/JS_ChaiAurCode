@@ -13,7 +13,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 // const bigNumber = 3456543576654356754n
 
@@ -30,7 +30,7 @@ let myObj = {
 const myfunc = function(){
     console.log("Hello World!")
 }
-console.log(typeof appliances)
+// console.log(typeof appliances)
 
 /*
 1) Primitive Datatypes
@@ -48,3 +48,28 @@ console.log(typeof appliances)
        Object  =>  object
        
        */
+
+    //    ___________________________________________________________
+
+/*  Two types of memory:
+    i) Stack (used by Primitive)
+    ii) Heap (used by Non-primitive or Reference dataTypes)
+*/
+
+
+// Stack Memory used by Primitive dataTypes
+let name1 = "zahhad"
+let name2 = name1
+name2 = "haider" // changing name2 does not change name1
+console.log(name1, name2) // zahhad haider
+
+// Heap Memory used by Non-Primitive OR Reference dataTypes
+let obj1 = {
+    email: "zahhad@gmail.com",
+    student: true
+}
+let obj2 = obj1
+console.log(obj2);
+
+obj2.email = "zahhad@outlook.com"// change in obj2 cause change in obj1
+console.log(obj1, obj2);
