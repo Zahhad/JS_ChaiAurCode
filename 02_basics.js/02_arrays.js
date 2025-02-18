@@ -12,4 +12,17 @@ there is a better and more flexible way to concat 2 or more arrays called *sprea
 */
 
 const Team = [...marvHeroes, ...dcHeroes] // preffered way to do it
-console.log(Team);
+// console.log(Team);
+
+const another_array = [1,2,3,[4,5,6],7,[7,[8,9]]]
+// console.log(another_array.flat(2)); // Returns a new array with all sub-array elements concatenated into it recursively up to the specified depth. 
+
+console.log(Array.isArray("Zahhad"))
+console.log(Array.from("Zahhad"))
+console.log(Array.from({name: "Zahhad"})) // interesting
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+console.log(Array.of(score1, score2, score3));
