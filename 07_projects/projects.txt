@@ -1,0 +1,86 @@
+/**
+ * 🟢 Beginner Projects:
+To-Do List
+
+Add, edit, and remove tasks
+Store tasks in localStorage
+Calculator
+
+Basic arithmetic operations (+, -, *, /)
+Use event listeners for button clicks
+Digital Clock
+
+Show real-time hours, minutes, and seconds
+Option to switch between 12-hour and 24-hour formats
+Random Quote Generator
+
+Show a new random quote on button click
+Fetch quotes from an array or API
+Tip Calculator
+
+Enter bill amount and tip percentage
+Calculate and display the total
+Weather App
+
+Fetch weather data from an API (e.g., OpenWeatherMap)
+Display temperature, humidity, and conditions
+Image Slider
+
+Auto-slide images or change on button click
+Use setInterval for automatic sliding
+Palindrome Checker
+
+Check if a word or sentence is a palindrome
+Ignore spaces and punctuation
+Simple Form Validation
+
+Validate input fields (e.g., email, password, phone number)
+Show error messages if invalid
+Color Picker
+
+Select a color and apply it to the background
+Show the selected color's HEX/RGB code
+ */
+
+/*
+ *🟠 Intermediate Projects:
+Quiz App
+
+Display questions with multiple-choice answers
+Track score and show results
+Expense Tracker
+
+Add expenses with category and amount
+Store transactions in localStorage
+Drag & Drop File Uploader
+
+Allow users to drag and drop files for upload
+Show file details before upload
+Stopwatch & Countdown Timer
+
+Start, pause, and reset functions
+Countdown mode for setting custom time
+Music Player
+
+Play, pause, skip songs
+Display progress bar and song details
+Notes App
+
+Add, edit, delete notes
+Store notes in localStorage
+Weather Dashboard
+
+Fetch weather data for multiple cities
+Show a 5-day forecast
+Typing Speed Test
+
+Show a paragraph and track typing speed
+Calculate words per minute (WPM)
+Infinite Scroll Posts
+
+Fetch posts from an API and load more when scrolling down
+Image Search App
+
+Search images using an API (e.g., Unsplash API)
+Display results in a grid layout
+ */
