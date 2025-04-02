@@ -1,0 +1,26 @@
+<div id="slide" class="active">
+    <h1>Demon Heart Cannot Lose, Cannot Fall</h1>
+    <h1>Must Win, Must Win at All Costs.</h1>
+</div>
+
+<script>
+  let slide = document.getElementById("slide");
+
+  // Check current classes
+  console.log(slide.classList); // DOMTokenList ["active"]
+
+  // Add a class
+  slide.classList.add("visible");
+  console.log(slide.classList); // DOMTokenList ["active", "visible"]
+
+  // Remove a class
+  slide.classList.remove("active");
+  console.log(slide.classList); // DOMTokenList ["visible"]
+
+  // Toggle a class
+  slide.classList.toggle("hidden");
+  console.log(slide.classList); // DOMTokenList ["visible", "hidden"]
+
+  // Check if a class exists
+  console.log(slide.classList.contains("hidden")); // true
+</script>
