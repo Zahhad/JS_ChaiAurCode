@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FILE_LIST</title>
+</head>
+<body>
+    <div id="drop-zone" style="width:200px; height:100px; border:2px dashed gray;">
+        Drop files here
+      </div>
+
+</body>
+<script>
+    document.getElementById("drop-zone").addEventListener("drop", function(e) {
+    e.preventDefault(); // Prevent default behavior (like opening the file)
+    
+    const files = e.dataTransfer.files;
+    console.log(files); // This is a FileList object
+
+    for (let i = 0; i < files.length; i++) {
+        console.log("File " + (i + 1) + ": " + files[i].name);
+    }
+    });
+
+    document.getElementById("drop-zone").addEventListener("dragover", function(e) {
+    e.preventDefault(); // Needed to allow dropping
+    });
+    const fileArray = [...e.dataTransfer.files]; // Now it's a real array
+
+    fileArray.forEach(file => {
+    console.log("File name:", file.name);
+    });
+
+</script>
+</html>
